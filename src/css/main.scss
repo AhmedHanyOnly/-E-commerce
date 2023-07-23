@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  body {
+    font-family: "Cairo", sans-serif !important;
+  }
+}
+.load-page{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 250px;
+}
+.logo {
+  font-size: 50px;
+}
+.search {
+  flex: 1;
+  border-radius: 10px;
+  width: 100%;
+}
+.btn-style {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  padding: 0 5px;
+  font-size: 14px;
+}
+.bg-slider {
+  background-color: rgba(240, 14, 14, 0.842);
+}
+.bg-slider2 {
+  background-color: rgba(14, 150, 240, 0.842);
+}
+.bg-slider3 {
+  background-color: rgba(98, 230, 21, 0.842);
+}
+.text-slider1 {
+  h3 {
+    font-size: 35px;
+    font-weight: bold;
+
+    color: #b62d18;
+  }
+  p {
+    font-size: 20px;
+    color: #ddd;
+  }
+}
+.text-slider2 {
+  h3 {
+    font-size: 35px;
+    font-weight: bold;
+
+    color: #1668c5;
+  }
+  p {
+    color: #ddd;
+    font-size: 20px;
+  }
+}
+.text-slider3 {
+  h3 {
+    font-size: 35px;
+    font-weight: bold;
+
+    color: #3aae16;
+  }
+  p {
+    color: #ddd;
+    font-size: 20px;
+  }
+}
+.btntitle {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #444;
+  font-size: 18px;
+  font-weight: 400;
+  transition: 0.3s;
+  &:hover {
+    background-color: #333;
+    color: #ddd;
+  }
+}
+.bg-category {
+  position: relative;
+
+  .img-card {
+    width: 150px;
+    height: 125px;
+  }
+  .ground-card {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+}
+.bg-discount {
+  background: linear-gradient(
+    90deg,
+    rgba(51, 51, 51, 1) 0%,
+    rgba(102, 102, 102, 1) 25%,
+    rgba(102, 102, 102, 1) 75%,
+    rgba(51, 51, 51, 1) 100%
+  );
+}
+.bg-footer{
+  width: 100%;
+  background-color: #212529;
+
+  padding: 20px;
+  p{
+    color: #fff;
+    padding:  10px;
+    &:hover{
+      color: #333;
+    }
+  }
+  .i-facebook{
+    &:hover{
+      color: #1668c5 !important;
+    }
+  }
+  .i-twitter{
+    &:hover{
+      color: #169fc5 !important;
+    }
+  }
+  .i-insta{
+    &:hover{
+      color: #c516ae !important;
+    }
+  }
+}
+
+.bg-log{
+  min-height: calc(100vh - 174px);
+
+  margin-top:'74px';
+  .int{
+    border: none;
+    border: 2px solid #d3d3d3;
+    // box-shadow: 1px 2px 3px #333;
+    width: 400px;
+    // outline: none;
+    &:focus{
+      border: 2px solid #e3e3e3;
+    }
+  }
+  .text-sign{
+    color: #b62d18;
+    text-decoration: none;
+
+    cursor: pointer;
+    &:hover{
+      color: #333;
+    }
+  }
+}
+.bg-register{
+  min-height: 100vh;
+
+}
+
+
+
+
+
+.break {
+  padding: 10px;
+  background-color: #666;
+  border-radius: 5px;
+  margin: 0 5px;
+  .break-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+    user-select: none;
+  }
+}
+.PN-btn {
+  background: linear-gradient(90deg, #212529, #333);
+  padding: 10px;
+  color: #ddd;
+  border-radius: 20px;
+  margin: 0 10px;
+  transition: 0.5s;
+  &:hover {
+    background: linear-gradient(150deg, #212529, #333);
+  }
+  .PN-btn-link {
+    text-decoration: none;
+    color: #ddd;
+    font-weight: 600;
+    user-select: none;
+
+    &:hover {
+      color: #ffffffba;
+    }
+  }
+}
+
+.pajContainer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: #ddd;
+  margin-top: 50px;
+  border-radius: 15px;
+  list-style: none;
+  z-index: 1;
+  .page {
+    padding: 10px;
+    margin: 0 5px;
+    background-color: #272e3a;
+    border-radius: 5px;
+    transition: 0.3s;
+    &:hover {
+      background-color: #666;
+    }
+    .page-link {
+      text-decoration: none;
+      color: #ddd;
+      user-select: none;
+      font-weight: 400;
+    }
+  }
+  .break {
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 0 5px;
+    .break-link {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 200;
+      user-select: none;
+    }
+  }
+  .PN-btn {
+    background: linear-gradient(90deg, #212529, #333);
+    padding: 10px;
+    color: #ddd;
+    border-radius: 20px;
+    margin: 0 10px;
+    transition: 0.5s;
+    &:hover {
+      background: linear-gradient(150deg, #212529, #333);
+    }
+    .PN-btn-link {
+      text-decoration: none;
+      color: #ddd;
+      font-weight: 600;
+      user-select: none;
+
+      &:hover {
+        color: #ffffffba;
+      }
+    }
+  }
+  .active-page {
+    background: linear-gradient(90deg, #212529, #333);
+    margin: 0 10px;
+    scale: 1.3;
+    transform: translateY(-5px);
+    z-index: 2;
+    .active-link {
+      text-decoration: none;
+      color: #ddd;
+      font-weight: 600;
+      z-index: 3;
+    }
+  }
+}
