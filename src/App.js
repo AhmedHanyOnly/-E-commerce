@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./css/main.scss";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import ClipLoader from "react-spinners/ClipLoader";
 import Home from "./page/Home/Home.jsx";
 import NavBar from "./components/Utility/NavBar";
@@ -35,7 +35,7 @@ const App = () => {
       ) : (
         <div>
           <NavBar />
-          <BrowserRouter>
+
             <Routes>
               <Route index element={<Home />} />
               <Route path="/login" element={<LoginPage />} />
@@ -45,7 +45,7 @@ const App = () => {
               <Route path="/mostRated" element={<MostRated />} />
               <Route path="/allBrand" element={<BrandPage />} />
             </Routes>
-          </BrowserRouter>
+
           <Footer />
         </div>
       )}
